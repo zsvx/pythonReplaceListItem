@@ -1,0 +1,5 @@
+def replace(lis, num, item):  # list, number you want to replace (remember counting starts at 0), and the item you will slide in
+  lis.pop(num)
+  lis.insert(num, item)
+  
+# EZ
